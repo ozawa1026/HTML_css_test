@@ -1,18 +1,18 @@
 header{
   width:100%;
-  height:10vh;
-  padding-bottom: 5%;
+  height:100px;
   display:flex;
   align-items:center;
   justify-content:space-between;
+  position: fixed;
   }
 
-  .coachtech {
+.coachtech {
   text-decoration: none;
   color: navy;
   font-weight: bold;
   padding: 1px 15px;
-  font-size: 30px; }
+  font-size: 30%; }
 
 li {
   display: inline;
@@ -24,39 +24,43 @@ li {
   color: navy;
   font-weight: bold;
   justify-content: space-around;
-  padding: 8px 15px;
-  font-size: 15px; }
+  padding: 8% 15%;
+  font-size: 15%; }
 
-  .main {
-  position: relative; /* 基準位置とする */
-  height: 75vh;
+.main {
+  position: relative;
+  top: 70vh;
+  width: 100%;
+  margin: 0;
   }
 
 .main_content{
   position: absolute; /* 相対位置に指定 */
-  bottom: 3%;
+  bottom: 0;
   left: 0;
-  width: 100%;
+  width: 75vw;
+  height: 50vh;
   }
 
-.main .title{
-  position: relative; /* 基準位置とする */
-  font-size: 70px;
-  margin: 0;
+.main p .title{
+  position: absolute; /* 相対位置に指定 */
+  top: 90vh;
+  font-size: 50%
   }
 
 .box {
-  bottom: 0;
-  left: 0;
-  width: 75%;
-  height: 200px;
+  position: absolute; /* 相対位置に指定 */
+  bottom: 1px;
+  left: 1px;
+  width: 70vw;
+  height: 20vh;
   background: navy;
   }
 
 .main img {
   position: absolute; /* 相対位置に指定 */
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: auto;
+  /* 右上に固定 */
+  bottom: 10vh;
+  right: 0vw;
+  width: 50vw;
   }
