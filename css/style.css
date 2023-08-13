@@ -41,14 +41,14 @@ li {
 .main .title{
   position: absolute; /* 相対位置に指定 */
   top: 0;
-  font-size: 300%
+  font-size: 5vw
   }
 
 .box {
   position: absolute; /* 相対位置に指定 */
   bottom: 0;
   left: 0;
-  width: 85%;
+  width: 70vw;
   height: 100px;
   background: navy;
   }
@@ -58,5 +58,5 @@ li {
   /* 右上に固定 */
   top: 0;
   right: 0;
-  width: 40%;
+  width: 50vw;
   }
