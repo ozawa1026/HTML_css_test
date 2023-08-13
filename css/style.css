@@ -4,6 +4,7 @@ header{
   display:flex;
   align-items:center;
   justify-content:space-between;
+  position: fixed;
   }
 
 .coachtech {
@@ -27,23 +28,25 @@ li {
   font-size: 15px; }
 
 .main {
-  position: relative;
-  top: 10vh;
+  position: fixed;
+  padding-top: 20vh;
+  top: 0;
+  width: 100%;
   margin: 0;
   }
 
 .main_content{
-  position: relative; /* 相対位置に指定 */
+  position: absolute; /* 相対位置に指定 */
   bottom: 0;
   left: 0;
   width: 75vw;
   height: 50vh;
   }
 
-.main .title{
+.main p .title{
   position: absolute; /* 相対位置に指定 */
-  top: 17vh;
-  font-size: 4vw
+  top: 90vh;
+  font-size: 50%
   }
 
 .box {
