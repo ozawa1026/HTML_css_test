@@ -28,21 +28,22 @@ li {
 
 .main {
   position: relative;
-  top: 70vh;
+  top: 10vh;
+  margin: 0;
   }
 
 .main_content{
-  position: absolute; /* 相対位置に指定 */
-  bottom: 5vh;
-  left: 1vw;
+  position: relative; /* 相対位置に指定 */
+  bottom: 0;
+  left: 0;
   width: 75vw;
   height: 50vh;
   }
 
 .main .title{
   position: absolute; /* 相対位置に指定 */
-  top: 0;
-  font-size: 5vw
+  top: 17vh;
+  font-size: 4vw
   }
 
 .box {
@@ -50,14 +51,14 @@ li {
   bottom: 1px;
   left: 1px;
   width: 70vw;
-  height: 30vh;
+  height: 20vh;
   background: navy;
   }
 
 .main img {
   position: absolute; /* 相対位置に指定 */
   /* 右上に固定 */
-  top: 0vh;
-  right: 1vw;
+  bottom: 10vh;
+  right: 0vw;
   width: 50vw;
   }
